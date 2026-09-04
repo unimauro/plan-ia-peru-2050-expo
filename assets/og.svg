@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="85%">
+      <stop offset="0" stop-color="#141c38"/>
+      <stop offset="0.7" stop-color="#0b1020"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5B7DB1"/>
+      <stop offset="1" stop-color="#E6B566"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F3864"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#bar)"/>
+
+  <!-- badge -->
+  <g transform="translate(80,86)">
+    <rect width="132" height="132" rx="26" fill="url(#brand)" stroke="#26304f"/>
+    <text x="66" y="66" text-anchor="middle" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="700" font-size="52" fill="#e8ecf6" letter-spacing="2">IA</text>
+    <text x="66" y="100" text-anchor="middle" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="700" font-size="24" fill="#E6B566" letter-spacing="3">2050</text>
+  </g>
+
+  <text x="240" y="132" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="700" font-size="26" fill="#9aa6c4" letter-spacing="3">COMISIÓN DE INTELIGENCIA ARTIFICIAL · CIP · CNPP</text>
+
+  <text x="80" y="330" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="700" font-size="96" fill="#e8ecf6">Plan IA Perú 2050</text>
+
+  <text x="80" y="410" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="400" font-size="42" fill="#c8d3ef">El Perú entre las potencias mundiales</text>
+  <text x="80" y="465" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="400" font-size="42" fill="#c8d3ef">de la inteligencia artificial</text>
+
+  <!-- footer chips -->
+  <g font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="600" font-size="26">
+    <rect x="80" y="530" width="230" height="52" rx="26" fill="#111832" stroke="#26304f"/>
+    <text x="195" y="564" text-anchor="middle" fill="#dfe7fb">23 láminas</text>
+    <rect x="326" y="530" width="200" height="52" rx="26" fill="#111832" stroke="#26304f"/>
+    <text x="426" y="564" text-anchor="middle" fill="#E6B566">BORRADOR</text>
+  </g>
+  <text x="1120" y="564" text-anchor="end" font-family="Segoe UI,system-ui,Arial,sans-serif" font-weight="400" font-size="24" fill="#9aa6c4">planperu2050.pe</text>
+</svg>
