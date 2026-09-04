@@ -5,12 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QC1S55NZC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0QC1S55NZC');
-</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-0QC1S55NZC');</script>
 <title>Plan IA Perú 2050 · Comisión de Inteligencia Artificial</title>
 <meta name="description" content="Expo final de la Comisión de IA (CIP·CNPP): Plan IA Perú 2050 — el Perú entre las potencias mundiales de la inteligencia artificial. Borrador en validación.">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -18,7 +13,6 @@
 <meta name="keywords" content="Plan IA Perú 2050, inteligencia artificial Perú, Comisión de IA, CIP, CNPP, robótica, infraestructura crítica, I+D, política de IA, Colegio de Ingenieros del Perú">
 <meta name="author" content="Ing. Carlos Mauro Cárdenas Fernández — Comisión de Inteligencia Artificial (CIP · CNPP)">
 <link rel="canonical" href="https://unimauro.github.io/plan-ia-peru-2050-expo/">
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Plan IA Perú 2050">
 <meta property="og:locale" content="es_PE">
@@ -27,20 +21,19 @@
 <meta property="og:image" content="https://unimauro.github.io/plan-ia-peru-2050-expo/assets/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Plan IA Perú 2050 — expo de la Comisión de IA">
 <meta property="og:url" content="https://unimauro.github.io/plan-ia-peru-2050-expo/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Plan IA Perú 2050 · Comisión de Inteligencia Artificial">
 <meta name="twitter:description" content="El Perú entre las potencias mundiales de la IA — y motor de robótica e infraestructura crítica. Expo de la comisión (borrador).">
 <meta name="twitter:image" content="https://unimauro.github.io/plan-ia-peru-2050-expo/assets/og.jpg">
 <meta name="theme-color" content="#0b1020">
-<!-- Favicons -->
-<link rel="icon" href="assets/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="manifest" href="assets/site.webmanifest">
-<!-- Datos estructurados (SEO) -->
+<link rel="icon" href="/plan-ia-peru-2050-expo/assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/plan-ia-peru-2050-expo/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/plan-ia-peru-2050-expo/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/plan-ia-peru-2050-expo/assets/favicon-16.png">
+<link rel="apple-touch-icon" href="/plan-ia-peru-2050-expo/assets/apple-touch-icon.png">
+<link rel="manifest" href="/plan-ia-peru-2050-expo/assets/site.webmanifest">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -51,16 +44,8 @@
   "url": "https://unimauro.github.io/plan-ia-peru-2050-expo/",
   "inLanguage": "es-PE",
   "image": "https://unimauro.github.io/plan-ia-peru-2050-expo/assets/og.jpg",
-  "author": {
-    "@type": "Person",
-    "name": "Ing. Carlos Mauro Cárdenas Fernández",
-    "jobTitle": "Presidente de la Comisión de Inteligencia Artificial"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "Comisión de Inteligencia Artificial — CIP · CNPP",
-    "parentOrganization": { "@type": "Organization", "name": "Colegio de Ingenieros del Perú" }
-  },
+  "author": { "@type": "Person", "name": "Ing. Carlos Mauro Cárdenas Fernández", "jobTitle": "Presidente de la Comisión de Inteligencia Artificial" },
+  "creator": { "@type": "Organization", "name": "Comisión de Inteligencia Artificial — CIP · CNPP", "parentOrganization": { "@type": "Organization", "name": "Colegio de Ingenieros del Perú" } },
   "keywords": "inteligencia artificial, Perú, IA, robótica, infraestructura crítica, I+D, política pública",
   "isAccessibleForFree": true
 }
@@ -75,9 +60,7 @@
     font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
     overscroll-behavior:none}
   #app{position:fixed;inset:0;display:flex;flex-direction:column}
-
-  /* top bar */
-  header{display:flex;align-items:center;gap:12px;padding:8px 14px;
+  header{display:flex;align-items:center;gap:10px;padding:8px 14px;
     background:linear-gradient(90deg,var(--navy),#122647);border-bottom:1px solid var(--line);
     flex:0 0 auto;z-index:5}
   header .brand{font-weight:700;font-size:.92rem;letter-spacing:.2px}
@@ -87,14 +70,11 @@
     border-radius:8px;padding:7px 11px;font:inherit;font-size:.82rem;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
   header button:hover{background:rgba(255,255,255,.18)}
   .counter{font-variant-numeric:tabular-nums;color:#dfe7fb;font-size:.85rem;min-width:64px;text-align:center}
-
-  /* stage */
   #stage{flex:1;position:relative;display:flex;align-items:center;justify-content:center;
     background:radial-gradient(circle at 50% 30%,#141c38,#0b1020 70%);overflow:hidden}
   #slideWrap{position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center}
   #slide{max-width:100%;max-height:100%;width:auto;height:auto;box-shadow:0 18px 60px rgba(0,0,0,.55);
     border-radius:6px;user-select:none;-webkit-user-drag:none}
-  /* click zones */
   .zone{position:absolute;top:0;bottom:0;width:32%;cursor:pointer;z-index:3}
   .zone.left{left:0}.zone.right{right:0}
   .nav{position:absolute;top:50%;transform:translateY(-50%);z-index:4;
@@ -103,12 +83,8 @@
     display:flex;align-items:center;justify-content:center;transition:.15s;backdrop-filter:blur(4px)}
   .nav:hover{background:var(--slate);border-color:var(--slate)}
   .nav.prev{left:16px}.nav.next{right:16px}
-
-  /* progress */
   #bar{flex:0 0 auto;height:4px;background:#0c1226}
   #bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--slate),var(--amber));transition:width .25s}
-
-  /* grid overview */
   #grid{position:fixed;inset:0;background:rgba(8,11,22,.97);z-index:20;display:none;
     grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:64px 20px 24px;
     overflow:auto;align-content:start}
@@ -121,12 +97,12 @@
   #gridClose{position:fixed;top:14px;right:18px;z-index:21;background:var(--panel);color:#fff;
     border:1px solid var(--line);border-radius:8px;padding:9px 14px;font:inherit;cursor:pointer}
   #gridTitle{position:fixed;top:16px;left:20px;z-index:21;font-weight:700;color:#fff}
-
   .hint{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);z-index:4;
     color:var(--mut);font-size:.72rem;background:rgba(11,16,32,.6);padding:4px 10px;border-radius:20px;
     border:1px solid var(--line);opacity:.9;pointer-events:none;transition:opacity .4s}
   @media (max-width:640px){
     header .brand small{display:none}
+    header button{padding:7px 9px}
     .nav{width:40px;height:40px}
     .hint{display:none}
   }
@@ -137,32 +113,30 @@
   <header>
     <div class="brand">Plan IA Perú 2050 <small>Comisión de Inteligencia Artificial · CIP·CNPP · BORRADOR</small></div>
     <div class="sp"></div>
+    <button id="btnShare" title="Compartir esta lámina">↗ Compartir</button>
     <button id="btnGrid" title="Ver todas (G)">▦ Índice</button>
     <button id="btnFull" title="Pantalla completa (F)">⛶ Pantalla</button>
     <span class="counter"><span id="cur">1</span> / 23</span>
   </header>
-
   <div id="stage">
     <div id="slideWrap">
-      <img id="slide" alt="" src="slides/slide-01.jpg">
+      <img id="slide" alt="" src="/plan-ia-peru-2050-expo/slides/slide-01.jpg">
       <div class="zone left"  id="zL"></div>
       <div class="zone right" id="zR"></div>
     </div>
     <button class="nav prev" id="prev" aria-label="Anterior">‹</button>
     <button class="nav next" id="next" aria-label="Siguiente">›</button>
-    <div class="hint" id="hint">← → para navegar · G índice · F pantalla completa</div>
+    <div class="hint" id="hint">← → para navegar · G índice · F pantalla · ↗ compartir</div>
   </div>
-
-  <div id="bar"><i id="barFill" style="width:4.34%"></i></div>
+  <div id="bar"><i id="barFill" style="width:4.35%"></i></div>
 </div>
-
 <div id="gridTitle" style="display:none">Índice · 23 láminas</div>
 <button id="gridClose" style="display:none">✕ Cerrar</button>
 <div id="grid"></div>
-
 <script>
 (function(){
   var N=23;
+  var BASE=location.pathname.replace(/\/slide\/\d+\/?$/,"").replace(/\/index\.html$/,"").replace(/\/$/,"");
   var titles=[
     "Portada — Plan IA Perú 2050",
     "Índice",
@@ -186,34 +160,42 @@
     "V. Esto no parte de cero",
     "VI. Primeros 100 días",
     "VII. Estrategia de emergencia",
-    "Cierre — «Lo va a construir»"
+    "Cierre — Hasta la victoria final"
   ];
   var pad=function(n){return (n<10?"0":"")+n;};
-  var src=function(n){return "slides/slide-"+pad(n)+".jpg";};
+  var src=function(n){return BASE+"/slides/slide-"+pad(n)+".jpg";};
   var i=1;
   var img=document.getElementById("slide"),
       cur=document.getElementById("cur"),
       fill=document.getElementById("barFill"),
       hint=document.getElementById("hint");
-
   function preload(n){ if(n>=1&&n<=N){var p=new Image();p.src=src(n);} }
   function show(n){
     i=Math.max(1,Math.min(N,n));
     img.src=src(i); img.alt=titles[i-1];
     cur.textContent=i;
     fill.style.width=(i/N*100).toFixed(2)+"%";
+    document.title=i+". "+titles[i-1]+" · Plan IA Perú 2050";
     preload(i+1); preload(i-1);
-    try{location.replace("#"+i);}catch(e){}
+    try{history.replaceState(null,"",BASE+"/slide/"+i+"/");}catch(e){try{location.replace("#"+i);}catch(_){}}
   }
   function nextS(){ show(i+1); }
   function prevS(){ show(i-1); }
-
   document.getElementById("next").onclick=nextS;
   document.getElementById("prev").onclick=prevS;
   document.getElementById("zR").onclick=nextS;
   document.getElementById("zL").onclick=prevS;
-
-  // keyboard
+  function toast(msg){ if(!hint) return; hint.textContent=msg; hint.style.opacity=.95;
+    clearTimeout(hint._t); hint._t=setTimeout(function(){hint.style.opacity=0;},2600); }
+  var btnShare=document.getElementById("btnShare");
+  if(btnShare) btnShare.onclick=function(){
+    var url=location.origin+BASE+"/slide/"+i+"/";
+    if(navigator.share){ navigator.share({title:titles[i-1]+" · Plan IA Perú 2050",url:url}).catch(function(){}); }
+    else if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){toast("Enlace de la lámina "+i+" copiado ✓");},
+        function(){window.prompt("Copia el enlace:",url);}); }
+    else { window.prompt("Copia el enlace:",url); }
+  };
   document.addEventListener("keydown",function(e){
     if(document.getElementById("grid").classList.contains("open")){
       if(e.key==="Escape"||e.key==="g"||e.key==="G"){closeGrid();}
@@ -226,27 +208,20 @@
       case "End": show(N); break;
       case "g": case "G": openGrid(); break;
       case "f": case "F": toggleFull(); break;
-      case "Escape": break;
     }
   });
-
-  // swipe
   var tx=0,ty=0;
   document.getElementById("stage").addEventListener("touchstart",function(e){tx=e.touches[0].clientX;ty=e.touches[0].clientY;},{passive:true});
   document.getElementById("stage").addEventListener("touchend",function(e){
     var dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
     if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){ dx<0?nextS():prevS(); }
   },{passive:true});
-
-  // fullscreen
   function toggleFull(){
     var el=document.documentElement;
     if(!document.fullscreenElement){ (el.requestFullscreen||el.webkitRequestFullscreen).call(el); }
     else{ (document.exitFullscreen||document.webkitExitFullscreen).call(document); }
   }
   document.getElementById("btnFull").onclick=toggleFull;
-
-  // grid
   var grid=document.getElementById("grid");
   function buildGrid(){
     if(grid.dataset.built) return;
@@ -268,13 +243,14 @@
     document.getElementById("gridTitle").style.display="none"; }
   document.getElementById("btnGrid").onclick=openGrid;
   document.getElementById("gridClose").onclick=closeGrid;
-
-  // hide hint after a bit
-  setTimeout(function(){ if(hint) hint.style.opacity=0; },4200);
-
-  // deep-link
-  var start=parseInt((location.hash||"").replace("#",""),10);
-  show(start>=1&&start<=N?start:1);
+  setTimeout(function(){ if(hint) hint.style.opacity=0; },4600);
+  function startSlide(){
+    var m=location.pathname.match(/\/slide\/(\d+)\/?$/);
+    if(m){var v=parseInt(m[1],10); if(v>=1&&v<=N) return v;}
+    var hh=parseInt((location.hash||"").replace("#",""),10);
+    return (hh>=1&&hh<=N)?hh:1;
+  }
+  show(startSlide());
 })();
 </script>
 </body>

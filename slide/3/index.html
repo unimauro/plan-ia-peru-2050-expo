@@ -2,17 +2,15 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0QC1S55NZC"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-0QC1S55NZC');</script>
 <title>3. I. Introducción · Plan IA Perú 2050</title>
 <meta name="description" content="I. Introducción — Plan IA Perú 2050, expo de la Comisión de Inteligencia Artificial (CIP · CNPP). Lámina 3 de 23. Borrador en validación.">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="author" content="Comisión de Inteligencia Artificial · CIP · CNPP">
 <link rel="canonical" href="https://unimauro.github.io/plan-ia-peru-2050-expo/slide/3/">
-<link rel="icon" href="https://unimauro.github.io/plan-ia-peru-2050-expo/assets/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="https://unimauro.github.io/plan-ia-peru-2050-expo/assets/favicon.svg">
-<link rel="apple-touch-icon" href="https://unimauro.github.io/plan-ia-peru-2050-expo/assets/apple-touch-icon.png">
-<meta name="theme-color" content="#0b1020">
-<!-- Open Graph -->
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Plan IA Perú 2050">
 <meta property="og:locale" content="es_PE">
@@ -27,10 +25,13 @@
 <meta name="twitter:title" content="3. I. Introducción · Plan IA Perú 2050">
 <meta name="twitter:description" content="I. Introducción — Plan IA Perú 2050, expo de la Comisión de Inteligencia Artificial (CIP · CNPP). Lámina 3 de 23. Borrador en validación.">
 <meta name="twitter:image" content="https://unimauro.github.io/plan-ia-peru-2050-expo/assets/og/og-03.jpg">
-<!-- Redirige a la expo en la lámina correspondiente -->
-<meta http-equiv="refresh" content="0; url=https://unimauro.github.io/plan-ia-peru-2050-expo/#3">
-<link rel="preload" as="image" href="https://unimauro.github.io/plan-ia-peru-2050-expo/slides/slide-03.jpg">
-<script>location.replace("https://unimauro.github.io/plan-ia-peru-2050-expo/#3");</script>
+<meta name="theme-color" content="#0b1020">
+<link rel="icon" href="/plan-ia-peru-2050-expo/assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/plan-ia-peru-2050-expo/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/plan-ia-peru-2050-expo/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/plan-ia-peru-2050-expo/assets/favicon-16.png">
+<link rel="apple-touch-icon" href="/plan-ia-peru-2050-expo/assets/apple-touch-icon.png">
+<link rel="manifest" href="/plan-ia-peru-2050-expo/assets/site.webmanifest">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,22 +39,213 @@
   "name": "I. Introducción",
   "caption": "3. I. Introducción · Plan IA Perú 2050",
   "contentUrl": "https://unimauro.github.io/plan-ia-peru-2050-expo/assets/og/og-03.jpg",
-  "thumbnailUrl": "https://unimauro.github.io/plan-ia-peru-2050-expo/assets/og/og-03.jpg",
   "isPartOf": { "@type": "PresentationDigitalDocument", "name": "Plan IA Perú 2050", "url": "https://unimauro.github.io/plan-ia-peru-2050-expo/" },
   "position": 3,
   "inLanguage": "es"
 }
 </script>
-<style>html,body{margin:0;background:#0b1020;color:#e8ecf6;font-family:"Segoe UI",system-ui,Arial,sans-serif}
-.w{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px;text-align:center}
-img{max-width:min(100%,900px);height:auto;border-radius:8px;box-shadow:0 12px 40px rgba(0,0,0,.5)}
-a{color:#E6B566}</style>
+<style>
+  :root{
+    --bg:#0b1020; --panel:#111832; --line:#26304f; --txt:#e8ecf6; --mut:#9aa6c4;
+    --navy:#1F3864; --slate:#5B7DB1; --amber:#E6B566; --coral:#D98C7A;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--txt);
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+    overscroll-behavior:none}
+  #app{position:fixed;inset:0;display:flex;flex-direction:column}
+  header{display:flex;align-items:center;gap:10px;padding:8px 14px;
+    background:linear-gradient(90deg,var(--navy),#122647);border-bottom:1px solid var(--line);
+    flex:0 0 auto;z-index:5}
+  header .brand{font-weight:700;font-size:.92rem;letter-spacing:.2px}
+  header .brand small{display:block;font-weight:400;color:#c8d3ef;font-size:.72rem}
+  header .sp{flex:1}
+  header button{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.18);
+    border-radius:8px;padding:7px 11px;font:inherit;font-size:.82rem;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+  header button:hover{background:rgba(255,255,255,.18)}
+  .counter{font-variant-numeric:tabular-nums;color:#dfe7fb;font-size:.85rem;min-width:64px;text-align:center}
+  #stage{flex:1;position:relative;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(circle at 50% 30%,#141c38,#0b1020 70%);overflow:hidden}
+  #slideWrap{position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+  #slide{max-width:100%;max-height:100%;width:auto;height:auto;box-shadow:0 18px 60px rgba(0,0,0,.55);
+    border-radius:6px;user-select:none;-webkit-user-drag:none}
+  .zone{position:absolute;top:0;bottom:0;width:32%;cursor:pointer;z-index:3}
+  .zone.left{left:0}.zone.right{right:0}
+  .nav{position:absolute;top:50%;transform:translateY(-50%);z-index:4;
+    width:46px;height:46px;border-radius:50%;border:1px solid var(--line);
+    background:rgba(17,24,50,.72);color:#fff;font-size:1.4rem;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;transition:.15s;backdrop-filter:blur(4px)}
+  .nav:hover{background:var(--slate);border-color:var(--slate)}
+  .nav.prev{left:16px}.nav.next{right:16px}
+  #bar{flex:0 0 auto;height:4px;background:#0c1226}
+  #bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--slate),var(--amber));transition:width .25s}
+  #grid{position:fixed;inset:0;background:rgba(8,11,22,.97);z-index:20;display:none;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:64px 20px 24px;
+    overflow:auto;align-content:start}
+  #grid.open{display:grid}
+  #grid figure{margin:0;cursor:pointer;border:2px solid transparent;border-radius:8px;overflow:hidden;background:var(--panel);transition:.15s}
+  #grid figure:hover{border-color:var(--slate);transform:translateY(-2px)}
+  #grid img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+  #grid figcaption{font-size:.72rem;color:var(--mut);padding:6px 8px;line-height:1.25}
+  #grid figcaption b{color:var(--txt)}
+  #gridClose{position:fixed;top:14px;right:18px;z-index:21;background:var(--panel);color:#fff;
+    border:1px solid var(--line);border-radius:8px;padding:9px 14px;font:inherit;cursor:pointer}
+  #gridTitle{position:fixed;top:16px;left:20px;z-index:21;font-weight:700;color:#fff}
+  .hint{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);z-index:4;
+    color:var(--mut);font-size:.72rem;background:rgba(11,16,32,.6);padding:4px 10px;border-radius:20px;
+    border:1px solid var(--line);opacity:.9;pointer-events:none;transition:opacity .4s}
+  @media (max-width:640px){
+    header .brand small{display:none}
+    header button{padding:7px 9px}
+    .nav{width:40px;height:40px}
+    .hint{display:none}
+  }
+</style>
 </head>
 <body>
-<div class="w">
-  <p>Abriendo la lámina 3 de «Plan IA Perú 2050»…</p>
-  <a href="https://unimauro.github.io/plan-ia-peru-2050-expo/#3"><img src="https://unimauro.github.io/plan-ia-peru-2050-expo/slides/slide-03.jpg" alt="I. Introducción"></a>
-  <p><a href="https://unimauro.github.io/plan-ia-peru-2050-expo/#3">Si no eres redirigido, haz clic aquí →</a></p>
+<div id="app">
+  <header>
+    <div class="brand">Plan IA Perú 2050 <small>Comisión de Inteligencia Artificial · CIP·CNPP · BORRADOR</small></div>
+    <div class="sp"></div>
+    <button id="btnShare" title="Compartir esta lámina">↗ Compartir</button>
+    <button id="btnGrid" title="Ver todas (G)">▦ Índice</button>
+    <button id="btnFull" title="Pantalla completa (F)">⛶ Pantalla</button>
+    <span class="counter"><span id="cur">3</span> / 23</span>
+  </header>
+  <div id="stage">
+    <div id="slideWrap">
+      <img id="slide" alt="" src="/plan-ia-peru-2050-expo/slides/slide-03.jpg">
+      <div class="zone left"  id="zL"></div>
+      <div class="zone right" id="zR"></div>
+    </div>
+    <button class="nav prev" id="prev" aria-label="Anterior">‹</button>
+    <button class="nav next" id="next" aria-label="Siguiente">›</button>
+    <div class="hint" id="hint">← → para navegar · G índice · F pantalla · ↗ compartir</div>
+  </div>
+  <div id="bar"><i id="barFill" style="width:13.04%"></i></div>
 </div>
+<div id="gridTitle" style="display:none">Índice · 23 láminas</div>
+<button id="gridClose" style="display:none">✕ Cerrar</button>
+<div id="grid"></div>
+<script>
+(function(){
+  var N=23;
+  var BASE=location.pathname.replace(/\/slide\/\d+\/?$/,"").replace(/\/index\.html$/,"").replace(/\/$/,"");
+  var titles=[
+    "Portada — Plan IA Perú 2050",
+    "Índice",
+    "I. Introducción",
+    "I. ¿Se puede sin la billetera de los gigantes?",
+    "El Perú no está solo · WDR 2026 (Banco Mundial)",
+    "II. Pilares fundamentales",
+    "II. Dónde está el Perú hoy (brechas)",
+    "II. Nuevos ejes · Robótica e Infraestructura crítica",
+    "III. Situación futura y actual",
+    "IV. Objetivos estratégicos y metas",
+    "IV. La aritmética de la ambición",
+    "IV. Inversión progresiva en I+D",
+    "IV. La inversión sube y el privado toma la posta",
+    "IV. La brecha que hay que cerrar",
+    "IV. Presupuesto 2027 vs la ambición IA",
+    "IV. Validación en las industrias · 8 pruebas ácidas",
+    "V. La estrategia asimétrica",
+    "V. Las palancas",
+    "V. Del software a fabricar (hardware)",
+    "V. Esto no parte de cero",
+    "VI. Primeros 100 días",
+    "VII. Estrategia de emergencia",
+    "Cierre — Hasta la victoria final"
+  ];
+  var pad=function(n){return (n<10?"0":"")+n;};
+  var src=function(n){return BASE+"/slides/slide-"+pad(n)+".jpg";};
+  var i=1;
+  var img=document.getElementById("slide"),
+      cur=document.getElementById("cur"),
+      fill=document.getElementById("barFill"),
+      hint=document.getElementById("hint");
+  function preload(n){ if(n>=1&&n<=N){var p=new Image();p.src=src(n);} }
+  function show(n){
+    i=Math.max(1,Math.min(N,n));
+    img.src=src(i); img.alt=titles[i-1];
+    cur.textContent=i;
+    fill.style.width=(i/N*100).toFixed(2)+"%";
+    document.title=i+". "+titles[i-1]+" · Plan IA Perú 2050";
+    preload(i+1); preload(i-1);
+    try{history.replaceState(null,"",BASE+"/slide/"+i+"/");}catch(e){try{location.replace("#"+i);}catch(_){}}
+  }
+  function nextS(){ show(i+1); }
+  function prevS(){ show(i-1); }
+  document.getElementById("next").onclick=nextS;
+  document.getElementById("prev").onclick=prevS;
+  document.getElementById("zR").onclick=nextS;
+  document.getElementById("zL").onclick=prevS;
+  function toast(msg){ if(!hint) return; hint.textContent=msg; hint.style.opacity=.95;
+    clearTimeout(hint._t); hint._t=setTimeout(function(){hint.style.opacity=0;},2600); }
+  var btnShare=document.getElementById("btnShare");
+  if(btnShare) btnShare.onclick=function(){
+    var url=location.origin+BASE+"/slide/"+i+"/";
+    if(navigator.share){ navigator.share({title:titles[i-1]+" · Plan IA Perú 2050",url:url}).catch(function(){}); }
+    else if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){toast("Enlace de la lámina "+i+" copiado ✓");},
+        function(){window.prompt("Copia el enlace:",url);}); }
+    else { window.prompt("Copia el enlace:",url); }
+  };
+  document.addEventListener("keydown",function(e){
+    if(document.getElementById("grid").classList.contains("open")){
+      if(e.key==="Escape"||e.key==="g"||e.key==="G"){closeGrid();}
+      return;
+    }
+    switch(e.key){
+      case "ArrowRight": case "PageDown": case " ": nextS(); e.preventDefault(); break;
+      case "ArrowLeft": case "PageUp": prevS(); e.preventDefault(); break;
+      case "Home": show(1); break;
+      case "End": show(N); break;
+      case "g": case "G": openGrid(); break;
+      case "f": case "F": toggleFull(); break;
+    }
+  });
+  var tx=0,ty=0;
+  document.getElementById("stage").addEventListener("touchstart",function(e){tx=e.touches[0].clientX;ty=e.touches[0].clientY;},{passive:true});
+  document.getElementById("stage").addEventListener("touchend",function(e){
+    var dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
+    if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){ dx<0?nextS():prevS(); }
+  },{passive:true});
+  function toggleFull(){
+    var el=document.documentElement;
+    if(!document.fullscreenElement){ (el.requestFullscreen||el.webkitRequestFullscreen).call(el); }
+    else{ (document.exitFullscreen||document.webkitExitFullscreen).call(document); }
+  }
+  document.getElementById("btnFull").onclick=toggleFull;
+  var grid=document.getElementById("grid");
+  function buildGrid(){
+    if(grid.dataset.built) return;
+    var h="";
+    for(var n=1;n<=N;n++){
+      h+='<figure data-n="'+n+'"><img loading="lazy" src="'+src(n)+'" alt="'+titles[n-1]+'">'+
+         '<figcaption><b>'+n+'.</b> '+titles[n-1]+'</figcaption></figure>';
+    }
+    grid.innerHTML=h; grid.dataset.built="1";
+    grid.querySelectorAll("figure").forEach(function(f){
+      f.onclick=function(){ show(+f.dataset.n); closeGrid(); };
+    });
+  }
+  function openGrid(){ buildGrid(); grid.classList.add("open");
+    document.getElementById("gridClose").style.display="block";
+    document.getElementById("gridTitle").style.display="block"; }
+  function closeGrid(){ grid.classList.remove("open");
+    document.getElementById("gridClose").style.display="none";
+    document.getElementById("gridTitle").style.display="none"; }
+  document.getElementById("btnGrid").onclick=openGrid;
+  document.getElementById("gridClose").onclick=closeGrid;
+  setTimeout(function(){ if(hint) hint.style.opacity=0; },4600);
+  function startSlide(){
+    var m=location.pathname.match(/\/slide\/(\d+)\/?$/);
+    if(m){var v=parseInt(m[1],10); if(v>=1&&v<=N) return v;}
+    var hh=parseInt((location.hash||"").replace("#",""),10);
+    return (hh>=1&&hh<=N)?hh:1;
+  }
+  show(startSlide());
+})();
+</script>
 </body>
 </html>
